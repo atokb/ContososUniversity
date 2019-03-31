@@ -1,8 +1,23 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
 body {
+    background-color: goldenrod;
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Teko', sans-serif;
+    font-size:2em;
+}
+
+p {
+    color: whitesmoke;
+}
+
+h2 {
+    color: black;
+}
+
+div {
+    color: white;
 }
 
 /* Wrapping element */
@@ -26,6 +41,13 @@ body {
 /* QR code generator */
 #qrCode {
     margin: 15px;
+}
+
+.jumbotron {
+    background-image: url("/images/blackstar.jpg");
+    background-size: cover;
+    height: 400px;
+    width:auto;
 }
 
 /* Hide/rearrange for smaller screens */
